@@ -3,16 +3,26 @@ import { connect } from 'react-redux';
 
 import Searchbox from './searchbox.jsx';
 import Resultbox from './resultbox.jsx';
+import Title from './title.jsx';
+import { Grid, CssBaseline, AppBar, Toolbar, Typography } from '@material-ui/core'
 
+import '../styles/app.css';
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <h1>Hello world!</h1>
-                <Searchbox />
-                <Resultbox results={this.props.results} />
-            </div>
+            <Grid containter>
+                <CssBaseline/>
+                <Title/>
+                <Grid className="client-styles-app-bodyGrid" item xs={12} container>
+                    <Grid xs={12} item>
+                        <Searchbox />
+                    </Grid>
+                    <Grid xs={12} item>
+                        <Resultbox results={this.props.results} />
+                    </Grid>
+                </Grid>
+            </Grid>
         );
     }
 }

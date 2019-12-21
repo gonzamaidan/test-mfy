@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import ACTIONS from '../actions';
+import { Grid, Paper } from '@material-ui/core'
 
 
 /**
@@ -18,11 +19,12 @@ class Searchbox extends Component {
 
     render() {
         return (
-            <div className="searchbox">
-                <h2>Searchbox</h2>
-                <input type="text" onChange={event => this.handleTextChange(event)} />
-                <button onClick={() => this.props.doSearch(this.state.text)}>Search</button>
-            </div>
+            <Paper className="searchbox">
+                <Grid container>
+                    <input type="text" onChange={event => this.handleTextChange(event)} />
+                    <button onClick={() => this.props.doSearch(this.state.text)}>Search</button>
+                </Grid>
+            </Paper>
         );
     }
 }
