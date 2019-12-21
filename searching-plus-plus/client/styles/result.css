@@ -1,0 +1,7 @@
+.cardTitle {
+    display: inline;
+}
+.cardTitle-right {
+    display: inline;
+    float: right;
+}
