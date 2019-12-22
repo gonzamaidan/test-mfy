@@ -4,6 +4,7 @@ import { ACTION_TYPES } from '../actions';
 const initial = {
     text: '',
     results: [],
+    count: 0
 };
 
 function doSearch(text) {
@@ -13,11 +14,11 @@ function doSearch(text) {
 function reducer(state = initial, action) {
     switch (action.type) {
         case ACTION_TYPES.SEARCH:
-            doSearch(action.text);
+            // doSearch(action.text);
             return { ...state, search: action.text };
             break;
         case ACTION_TYPES.RESULT:
-            return { ...state, results: action.results };
+            return { ...state, results: action.results, count: action.count };
             break;
     }
     return state;
