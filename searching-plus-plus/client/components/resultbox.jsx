@@ -4,7 +4,6 @@ import { Grid } from '@material-ui/core'
 import '../styles/result.css'
 export default ({ results = [] }) => (
     <Grid item xs={12} className="resultbox">
-        <h2>Results:</h2>
         <Grid container spacing={2}>
             {
                 results.map((result, index) =>
