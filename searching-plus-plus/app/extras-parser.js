@@ -21,6 +21,7 @@ O:strlen(object name):object name:object size:{s:strlen(property name):property 
 
 super secret tip: search for "npm php-serialize"
 */
+const Serialize = require('php-serialize')
 module.exports = function parseExtrasString(input) {
-    return null;
+    return Serialize.unserialize(input);
 }
