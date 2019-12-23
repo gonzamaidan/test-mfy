@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<ads>
+	<result>true</result>
+	<msg></msg>
+	<ad>
+		<id>
+			<![CDATA[836619]]>
+		</id>
+		<url>
+			<![CDATA[http://www.adrianamoyanopropiedades.com.ar/836619]]>
+		</url>
+		<title>
+			<![CDATA[Venta Departamento en La Plata G.B.A. Zona Sur 9  317]]>
+		</title>
+		<type>
+			<![CDATA[For sale]]>
+		</type>
+		<broker>
+			<![CDATA[39486]]>
+		</broker>
+		<published-date>
+			<![CDATA[2019-08-08T23:08:24]]>
+		</published-date>
+		<updated-date>
+			<![CDATA[2019-08-08T23:08:24]]>
+		</updated-date>
+		<agency>
+			<![CDATA[Adriana Moyano Propiedades]]>
+		</agency>
+		<contact_email>
+			<![CDATA[adrianamoyanopropiedades@gmail.com]]>
+		</contact_email>
+		<content>
+			<![CDATA[Departamento en Venta, 9 38 Y 39 VENDEN DEPARTAMENTO DE 2 DORMITORIOS A ESTRENAR,  con una superficie total de 89m²,   3 ambientes, . 9 38 Y 39 EN VENTA A ESTRENAR DEPARTAMENTO AL FRENTE CON BALCÓN CORRIDO.A 2 CUADRAS DE PLAZA OLAZABAL Y 3 DE PLAZA BELGRANOAMPLIO Y LUMINOSO LIVING COMEDOR, GRAN VENTANAL CON BALCÓN AL FRENTE DEL EDIFICIO, COCINA SEPARADA POR BARRA DESAYUNADORA, CON DOBLE LÍNEA DE MESADA CON MUEBLES.DOS DORMITORIOS  DE BUEN TAMAÑOCON PLACARD, UNO DE ELLOS CON BALCÓN AL FRENTE, BAÑO COMPLETO.LUZ TODO EL DÍAES APTO BANCO, ESCRITURA DEFINITIVA.1 AÑO DE ANTIGÜEDAD89 M2180.000 U$S]]>
+		</content>
+		<price currency="USD">
+			<![CDATA[180000]]>
+		</price>
+		<property_type>
+			<![CDATA[Departamento]]>
+		</property_type>
+		<floor_area unit="meters">
+			<![CDATA[89]]>
+		</floor_area>
+		<rooms>
+			<![CDATA[3]]>
+		</rooms>
+		<bedrooms>
+			<![CDATA[2]]>
+		</bedrooms>
+		<bathrooms>
+			<![CDATA[1]]>
+		</bathrooms>
+		<parking>
+			<![CDATA[]]>
+		</parking>
+		<orientacion>
+			<![CDATA[Este]]>
+		</orientacion>
+		<disposicion>
+			<![CDATA[Frente]]>
+		</disposicion>
+		<expenses>
+			<![CDATA[3000]]>
+		</expenses>
+		<pisosedif>
+			<![CDATA[]]>
+		</pisosedif>
+		<dptospiso>
+			<![CDATA[2]]>
+		</dptospiso>
+		<servicios>
+			<![CDATA[Agua corriente, Desague cloacal, Gas natural, Internet, Luz, Pavimento, Telefono, Videocable]]>
+		</servicios>
+		<adicionales>
+			<![CDATA[Calefaccion]]>
+		</adicionales>
+		<address>
+			<![CDATA[9  317]]>
+		</address>
+		<region>
+			<![CDATA[G.B.A. Zona Sur]]>
+		</region>
+		<city_area>
+			<![CDATA[La Plata]]>
+		</city_area>
+		<city>
+			<![CDATA[La Plata]]>
+		</city>
+		<latitude>
+			<![CDATA[-34.908108]]>
+		</latitude>
+		<longitude>
+			<![CDATA[-57.963554]]>
+		</longitude>
+		<pictures>
+			<picture>
+				<picture_url>
+					<![CDATA[https://static.lgi.com.ar/img/propiedad/15175575.jpg]]>
+				</picture_url>
+			</picture>
+		</pictures>
+	</ad>
+</ads>
