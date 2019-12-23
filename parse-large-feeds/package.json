@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-register",
+    "test": "nyc mocha --compilers js:babel-register",
     "build": "rimraf ./dist/ && babel ./src/ --out-dir ./dist/ --copy-files",
     "start": "node dist/index.js",
     "watch": "nodemon src/index.js --exec babel-node",
@@ -22,6 +22,10 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "bunyan": "^1.8.12"
+    "bunyan": "^1.8.12",
+    "jsonfile": "^5.0.0",
+    "lodash": "^4.17.15",
+    "nyc": "^15.0.0",
+    "sax": "^1.2.4"
   }
 }
